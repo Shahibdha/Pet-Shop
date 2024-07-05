@@ -1,0 +1,66 @@
+
+.contact-form{
+    padding: 6rem 3rem 0 3rem;
+    display: flex;
+    max-height: 500px;
+    margin-right: 8rem;
+}
+.c-right{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex: 1;
+}
+.c-right>form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+.c-right .user{
+    width: 20rem;
+    height: 2rem;
+    padding: 0.3rem;
+    outline: none;
+    border-radius: 8px;
+    border: 2px solid palevioletred;
+    font-size: 16px;
+}
+textarea{
+    height: 4rem !important;
+}
+.c-blurl{
+    top: 1rem;
+    left: 8rem;
+}
+.awesome span {
+    display: block; 
+    margin-left: 8rem;
+}
+.about_us{
+    color: black;
+    font-weight: bold;
+    font-size: 4rem;
+}
+.shady{
+    color: rgb(233, 27, 96);
+    font-weight: 1000px;
+    font-size: 4rem;
+    font-family: 'Lobster', cursive;
+}
+.buttonj{
+    border-radius: 34px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    padding: 11px 26px 11px 26px;
+    background: linear-gradient(180deg,rgb(233, 27, 96),rgb(200, 7, 71));
+    box-shadow: 0px 10px 24px 3px rgb(140, 6, 51);
+    width: 8rem;
+    height: 3rem;
+    margin-top: 2rem;
+}
+.buttonj:hover{
+    cursor: pointer;
+    color: black
+}

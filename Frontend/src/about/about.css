@@ -1,0 +1,62 @@
+.intro{
+    display: flex;
+    height: 77vh;
+    margin-top: 3rem;
+    margin-left: 6rem;
+}
+.i-left{
+    display: flex;
+    position: relative;
+    flex: 1;
+    flex-direction: column;
+}
+.i-right {
+    flex: 1; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  }
+  
+  .i-right img {
+        width: 60%;
+        height: 80%;
+        border-radius: 50%;
+        margin-top: -30px;
+    }
+.i-name{
+    display: flex;
+    flex-direction: column;
+}
+.about_us{
+    color: black;
+    font-weight: bold;
+    font-size: 4rem;
+}
+.shady{
+    color: rgb(233, 27, 96);
+    font-weight: 1000px;
+    font-size: 4rem;
+    font-family: 'Segoe UI',cursive;
+}
+.para{
+    font-weight: 100;
+    font-size: 15px;
+    color: gray;
+    margin-top: 15px;
+}
+ .buttoni{
+    border-radius: 34px;
+    color: white;
+    font-size: 16px;
+    background: linear-gradient(180deg,rgb(233, 27, 96),rgb(200, 7, 71));
+    box-shadow: 0px 10px 24px 3px rgb(140, 6, 51);
+    width: 90px;
+    height: 30px;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+.buttoni:hover{
+    cursor: pointer;
+    color: black
+}

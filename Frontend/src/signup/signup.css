@@ -1,0 +1,58 @@
+.container {
+    background: transparent;
+    width: 600px;
+}
+  
+  h3 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 35px;
+    color: black;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    margin-left: 16px;
+  }
+  
+  .form-controls {
+    width: 70%;
+    padding: 14px;
+    border-radius: 50px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    margin-left: 80px;
+  }
+  
+  .btni {
+    background-color: #ff0095;
+    color: #000000;
+    border: none;
+    cursor: pointer;
+    margin-left: 18%;
+    margin-top: 10px;
+    width: 70%;
+    padding: 14px;
+    border-radius: 50px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  .btni:hover {
+    background-color: #bc0470;
+  }
+  
+  p {
+    margin-top: 15px;
+    text-align: center;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
